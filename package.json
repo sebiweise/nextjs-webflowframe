@@ -1,8 +1,9 @@
 {
-  "name": "webflowframe",
+  "name": "nextjs-webflowframe",
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -16,6 +17,7 @@
     "next": "12.2.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-is": "^18.2.0",
     "sitemap-links": "^1.0.3",
     "styled-components": "^5.3.6"
   },
@@ -26,11 +28,10 @@
     "@types/react": "17.0.37",
     "@types/styled-components": "^5.1.26",
     "autoprefixer": "^10.4.12",
-    "eslint": "8.23.1",
-    "eslint-config-custom": "workspace:0.0.0",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2",
     "next-transpile-modules": "9.0.0",
     "postcss": "^8.4.18",
-    "tsconfig": "workspace:0.0.0",
     "typescript": "^4.8.4"
   }
 }
